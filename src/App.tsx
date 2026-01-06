@@ -12,7 +12,6 @@ import SearchBooks from "./pages/SearchBooks";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import AccountStatus from "./pages/AccountStatus";
-import Setup from "./pages/Setup";
 import NotFound from "./pages/NotFound";
 
 // Librarian Pages
@@ -59,7 +58,7 @@ const App = () => (
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
             <Route path="/account-status" element={<AccountStatus />} />
-            <Route path="/setup" element={<Setup />} />
+            
 
             {/* Librarian Routes */}
             <Route path="/librarian" element={<LibrarianDashboard />} />
